@@ -51,14 +51,14 @@ dl dt {
                     background-color: #ffc336; }
 
                     code, tt {
-                      padding: 1px 3px;
-                      font-family: Inconsolata, monospace, sans-serif;
-                      font-size: 0.85em;
+                      padding: 0px 0px;
+                      font-family: monospace;
+                      font-size: 1.2em;
                       white-space: pre-wrap;
-                      border: 1px solid #E3EDF3;
-                      background: #f7f7f9;
-                      color: #d14;
-                      border-radius: 2px; }
+                      border: 0px solid #E3EDF3;
+                      font-weight: bold;
+                      color: #009900;
+                      border-radius: 0px; }
 
                       pre {
                         -moz-box-sizing: border-box;
@@ -67,7 +67,7 @@ dl dt {
                         border: 1px solid #E3EDF3;
                         width: 100%;
                         padding: 10px;
-                        font-family: Inconsolata, monospace, sans-serif;
+                        font-family: monospace
                         font-size: 0.9em;
                         white-space: pre;
                         overflow: auto;
@@ -278,8 +278,8 @@ dl dt {
 
 .codehilite code, .codehilite pre {
   word-break: break-word;
-  color: #fdce93;
-  background-color: #3f3f3f;
+  color: #718c00;
+  background-color: #f7f7f7;
   padding: 10px;
   border-radius: 3px; }
 
@@ -287,7 +287,7 @@ dl dt {
     background-color: #222; }
 
     .codehilite .c {
-      color: #7f9f7f; }
+      color: #93a1a1; }
 
       .codehilite .err {
         color: #e37170;
@@ -297,16 +297,16 @@ dl dt {
           color: #7f9f7f; }
 
           .codehilite .k {
-            color: #f0dfaf; }
+            color: #8959a8; }
 
             .codehilite .l {
               color: #ccc; }
 
               .codehilite .n {
-                color: #dcdccc; }
+                color: #2aa198; }
 
                 .codehilite .o {
-                  color: #f0efd0; }
+                  color: #93a1a1; }
 
                   .codehilite .x {
                     color: #ccc; }
@@ -388,16 +388,16 @@ dl dt {
                                                                   color: #8cd0d3; }
 
                                                                   .codehilite .s {
-                                                                    color: #cc9393; }
+                                                                    color: ##93a1a1; }
 
                                                                     .codehilite .na {
                                                                       color: #9ac39f; }
 
                                                                       .codehilite .nb {
-                                                                        color: #efef8f; }
+                                                                        color: #d33682; }
 
                                                                         .codehilite .nc {
-                                                                          color: #efef8f; }
+                                                                          color: #d33682 }
 
                                                                           .codehilite .no {
                                                                             color: #ccc; }
@@ -413,10 +413,10 @@ dl dt {
                                                                                   font-weight: bold; }
 
                                                                                   .codehilite .nf {
-                                                                                    color: #efef8f; }
+                                                                                    color: #8e908c; }
 
                                                                                     .codehilite .nl {
-                                                                                      color: #ccc; }
+                                                                                      color: #3F8ECF; }
 
                                                                                       .codehilite .nn {
                                                                                         color: #8fbede; }
@@ -431,10 +431,10 @@ dl dt {
                                                                                               color: #9ac39f; }
 
                                                                                               .codehilite .nv {
-                                                                                                color: #dcdccc; }
+                                                                                                color:  #0086b3; }
 
                                                                                                 .codehilite .ow {
-                                                                                                  color: #f0efd0; }
+                                                                                                  color: #8959a8; }
 
                                                                                                   .codehilite .w {
                                                                                                     color: #ccc; }
@@ -485,7 +485,7 @@ dl dt {
                                                                                                                                   color: #cc9393; }
 
                                                                                                                                   .codehilite .bp {
-                                                                                                                                    color: #efef8f; }
+                                                                                                                                    color:#d33682; }
 
                                                                                                                                     .codehilite .vc {
                                                                                                                                       color: #efef8f; }

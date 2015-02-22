@@ -15,7 +15,7 @@ body {
 	background-image: url('img/bg.png');
 	color: #000305;
 	font-size: 87.5%; /* Base font size: 14px */
-	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif";
 	line-height: 1.429;
 	margin: 0;
 	padding: 0;
@@ -31,9 +31,9 @@ body {
 /* ===========================
    ========= Headings ========
    =========================== */
-h2 {font-size: 1.571em}	/* 22px */
+h2 {font-size: 1.771em}	/* 22px */
 h3 {font-size: 1.429em}	/* 20px */
-h4 {font-size: 1.286em}	/* 18px */
+h4 {font-size: 1.186em}	/* 18px */
 h5 {font-size: 1.143em}	/* 16px */
 h6 {font-size: 1em}		/* 14px */
 
@@ -41,6 +41,9 @@ h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	line-height: 1.1;
 	margin-bottom: .8em;
+  	color:#08c;
+  	border-radius:20px;
+  	padding-left: 20px ;
 }
 
 /* ===========================
@@ -78,9 +81,11 @@ a:hover, a:active {
 	line-height: 30px;
 	margin: 0 auto 30px auto;
 	text-align: center;
-	border-radius: 5px;
+	border-radius: 20px;
+	/*
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
+	*/
 }
 
 .mainHeader nav ul {
@@ -156,7 +161,19 @@ a:hover, a:active {
 	-webkit-border-radius: 5px;
 	min-height: 610px;
 }
+.source h2
+{
+	background-color: wheat;
 
+}
+.source h3
+{
+	background-color: #f5decc;
+}
+.source h4
+{
+	background-color: #f5dece;
+}
 .post-info {
 	font-style: italic;
 	color: #999;
@@ -216,7 +233,7 @@ a:hover, a:active {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	color: #FFF;
+	color: #FFF ;
 }
 
 .mainFooter p {

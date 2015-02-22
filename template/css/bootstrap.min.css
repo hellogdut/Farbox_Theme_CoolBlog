@@ -696,7 +696,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: inherit;
     font-weight: bold;
     line-height: 20px;
-    color: inherit;
+    color: #20435c;
     text-rendering: optimizelegibility
 }
 
@@ -904,7 +904,7 @@ address {
 
 code, pre {
     padding: 0 3px 2px;
-    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
     font-size: 12px;
     color: #333;
     -webkit-border-radius: 3px;
@@ -5601,4 +5601,3 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 .affix {
     position: fixed
 }
-
